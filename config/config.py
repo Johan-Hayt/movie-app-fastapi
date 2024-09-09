@@ -9,5 +9,5 @@ class Settings(BaseSettings):
     postgres_host: str 
     postgres_port: str
 
-    model_config = SettingsConfigDict(env_file="E:\PLATZI\FastAPI\my-movie-api\.env")
+    model_config = SettingsConfigDict(env_file=".env")
 
